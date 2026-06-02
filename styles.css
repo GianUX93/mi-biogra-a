@@ -1,0 +1,133 @@
+/*
+Color principal o primario: #a9b79e
+color de enfasis o secundario: #c25848
+Color de fondo: #e8ddbd
+Color de texto: #9d1d36
+*/
+
+body{
+    background-color:#e8ddbd;
+    font-family: 'Open Sans', sans-serif ;
+}
+header{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height:100px;
+    margin-bottom: 50px;
+    padding-inline: 32px;
+    padding: 32px;
+    background-color: #b8bdb5
+    
+}
+nav{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+a:hover{
+    color: #9d1d36;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.bio{
+    font-family: 'Host Grotesk', sans-serif ;
+    color: #9d1d36;
+}
+.card{
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 700px;
+    border: 5px solid transparent;
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+
+}
+.card:hover{
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    border: 5px solid rgba(0, 0, 0, 0.5);
+
+}
+
+#mi-foto{
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+ 
+#mi-foto img{
+    width: 400px;
+    border-radius: 12px;
+}
+
+#mi-biografia{
+    padding: 30px;
+    margin: 30px;
+    margin-bottom: 40px;
+    max-width: 900px;
+    background-color: #a9b79e;
+    border-radius: 20px;
+    border: 4px;
+    border-color: #09716e;
+    border-style: dashed;
+
+}
+
+#mis-comidas-favoritas{
+
+    background-color: #dba887;
+}
+
+#paises-que-he-visitado{
+
+    background-color: #a9b79e;
+}
+
+#mis-pasatiempos-favoritos{
+
+    background-color: #dba887;
+}
+
+#mis-series-favoritas{
+
+    background-color: #a9b79e;
+}
+footer{
+    margin-top: 50px;
+    display: flex;
+    background-color: #ddc382;
+    flex-direction: column;
+    gap: 32px;
+    padding-inline: 32px;
+}
+
+#sobre-mi{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;  
+}
+
+#derechos{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #8f8468;
+}
+
+.titulo-sobre-mi {
+    color: #9d1d36;
+    font-family: 'Host Grotesk', sans-serif ;
+}
+
+.titulo-contacto {
+    color: #9d1d36;
+    font-family: 'Host Grotesk', sans-serif ;
+}
+
